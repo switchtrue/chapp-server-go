@@ -22,3 +22,9 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# node.js
+graphiql/graphiql.css
+graphiql/graphiql.js
+node_modules
+*.log

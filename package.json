@@ -1,0 +1,22 @@
+{
+  "name": "chapp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graphiql/server.js",
+  "scripts": {
+    "start": "node graphiql/server.js",
+    "postinstall": "cp node_modules/graphiql/graphiql.js graphiql/graphiql.js && cp node_modules/graphiql/graphiql.css graphiql/graphiql.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.4.0",
+    "graphiql": "^0.4.5",
+    "graphql": "^0.4.14",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "serve-static": "^1.10.0"
+  }
+}
