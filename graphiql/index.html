@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/graphiql.css" />
     <script src="./js/react.min.js"></script>
     <script src="./js/react-dom.min.js"></script>
-    <script src="./js/fetch.min.js"></script>
+    <script src="./js/fetch.js"></script>
     <script src="./js/graphiql.js"></script>
   </head>
   <body>
@@ -72,7 +72,7 @@
 
       // Defines a GraphQL fetcher using the fetch API.
       function graphQLFetcher(graphQLParams) {
-        return fetch('http://localhost:3000/graphql', {
+        return fetch('http://localhost:8080/graphql', {
           method: 'post',
           headers: {
             'Accept': 'application/json',
